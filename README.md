@@ -17,7 +17,7 @@ This is a library written to allow beautiful graphs and charts to be easily inco
 
 ![LineGraph](https://lh3.googleusercontent.com/-Pr5nzXngxZo/US0_RKH9DGI/AAAAAAAAS1s/an4cS3Nr4qY/s844/13+-+1)
 ![BarGraph](https://lh3.googleusercontent.com/-9vy9Bvclx24/US0_RIZpl7I/AAAAAAAAS2o/k3Tpb2sIoFw/s844/13+-+3)
-![PieGraph](https://cloud.githubusercontent.com/assets/174658/10867756/19310d48-80b7-11e5-919b-1f1f0133dfca.png)
+![PieGraph](https://cloud.githubusercontent.com/assets/174658/10867767/1f100dbc-80b8-11e5-9699-14e517b90889.png)
 
 ## Usage
 
