@@ -1,7 +1,12 @@
 HoloGraphLibrary
 ================
 
-Fork of the HoloGraphLibrary by Daniel Nadeau, with additionnal features
+Forked from:
+- https://bitbucket.org/danielnadeau/holographlibrary
+- https://github.com/Androguide/HoloGraphLibrary
+
+Added feature:
+- Show icon on PieGraph
 
 # Welcome
 
@@ -12,7 +17,7 @@ This is a library written to allow beautiful graphs and charts to be easily inco
 
 ![LineGraph](https://lh3.googleusercontent.com/-Pr5nzXngxZo/US0_RKH9DGI/AAAAAAAAS1s/an4cS3Nr4qY/s844/13+-+1)
 ![BarGraph](https://lh3.googleusercontent.com/-9vy9Bvclx24/US0_RIZpl7I/AAAAAAAAS2o/k3Tpb2sIoFw/s844/13+-+3)
-![PieGraph](https://lh6.googleusercontent.com/-Ad0lLdyK1cA/US0_RBYcqKI/AAAAAAAAS20/lQ8zLo_VSiQ/s844/13+-+5)
+![PieGraph](https://cloud.githubusercontent.com/assets/174658/10867767/1f100dbc-80b8-11e5-9699-14e517b90889.png)
 
 ## Usage
 
@@ -102,6 +107,7 @@ pg.addSlice(slice);
 slice = new PieSlice();
 slice.setColor(Color.parseColor("#AA66CC"));
 slice.setValue(8);
+slice.setIcon(BitmapFactory.decodeResource(getResources(), R.drawable.icon_star));
 pg.addSlice(slice);
 ```
 
